@@ -2,10 +2,11 @@ package me.dio.soccernews.domain;
 
 public class News {
 
-    public News(String title, String description) {
-        this.title = title;
-        this.description = description;
-    }
+    private String title;
+    private String description;
+    private String image;
+    private String link;
+
 
     public String getTitle() {
         return title;
@@ -23,6 +24,22 @@ public class News {
         this.description = description;
     }
 
-    private String title;
-    private String description;
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+
+
 }
