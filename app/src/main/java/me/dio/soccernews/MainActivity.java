@@ -41,7 +41,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
 
 
+
+
         setupLocalDb();
+
     }
 
     public void setupLocalDb() {
