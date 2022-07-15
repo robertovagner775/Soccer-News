@@ -1,4 +1,4 @@
-package me.dio.soccernews.local;
+package me.dio.soccernews.data.local;
 
 import androidx.room.Dao;
 import androidx.room.Insert;

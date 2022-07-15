@@ -4,7 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.NewsFragment">
+    tools:context=".ui.news.NewsFragment">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/srlnews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -14,4 +19,6 @@
         tools:layout_editor_absoluteX="81dp"
         tools:layout_editor_absoluteY="233dp"
         tools:listitem="@layout/news_item" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout >
 </androidx.constraintlayout.widget.ConstraintLayout>

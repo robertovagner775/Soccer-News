@@ -1,4 +1,4 @@
-package me.dio.soccernews.ui.dashboard;
+package me.dio.soccernews.ui.favorites;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

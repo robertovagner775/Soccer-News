@@ -68,7 +68,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
         });
 
 
-         int favoriteColor = news.isFavorite() ? R.color.design_default_color_primary : R.color.color_gray;
+         int favoriteColor = news.isFavorite() ? R.color.secundary_700 : R.color.color_gray;
          holder.binding.iconHeart.setColorFilter(context.getResources().getColor(favoriteColor));
 
     }
